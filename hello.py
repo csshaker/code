@@ -14,5 +14,8 @@ def func_signup():
 	
 def addition(a, b):
 	return a + b
+	
+def multiplication(a, b):
+	return a * b
 
 #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	
