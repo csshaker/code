@@ -12,3 +12,7 @@ def func_login():
 def func_signup():
 	print("sign up")
 	
+def addition(a, b):
+	return a + b
+
+#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	
