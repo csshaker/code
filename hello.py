@@ -12,3 +12,6 @@ def func_login():
 def func_signup():
 	print("sign up")
 	
+def subtraction(a, b):
+	return a - b
+	
