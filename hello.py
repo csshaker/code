@@ -12,10 +12,13 @@ def func_login():
 def func_signup():
 	print("sign up")
 	
+def subtraction(a, b):
+	return a - b
+	
 def addition(a, b):
 	return a + b
 	
 def multiplication(a, b):
 	return a * b
 
-#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	
+#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
