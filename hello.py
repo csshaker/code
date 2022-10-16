@@ -21,4 +21,7 @@ def addition(a, b):
 def multiplication(a, b):
 	return a * b
 
+def printSomething(something):
+	print(something)
+
 #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
