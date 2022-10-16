@@ -18,18 +18,6 @@ def division(a, b):
 		return a / b
 	except ZeroDivisionError:
 		print("cannot divide by zero")
-
-def maxThree(num1, num2, num3):
-	if num1 > num2:
-		if num1 > num3:
-			return num1
-		else 
-			return num3
-	else:
-		if num2 > num3
-			return num2
-		else
-			return num3
 			
 def isEven(number):
 	if number % 2 == 0:
@@ -44,3 +32,12 @@ def arraySum(li):
 		summation += i
 
 	return summation
+
+def isPrime(number):
+	i = 2
+
+	while i <= number / 2:
+		if number % i == 0:
+			return False
+	
+	return True
