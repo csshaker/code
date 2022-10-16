@@ -1,4 +1,3 @@
-
 def func_signup():
 	print("sign up")
 	
@@ -20,4 +19,8 @@ def division(a, b):
 	except ZeroDivisionError:
 		print("cannot divide by zero")
 
-#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
+def isEven(number):
+	if number % 2 == 0:
+		return True
+	else:
+		return false
