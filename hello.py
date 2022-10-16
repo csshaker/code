@@ -30,3 +30,9 @@ def maxThree(num1, num2, num3):
 			return num2
 		else
 			return num3
+			
+def isEven(number):
+	if number % 2 == 0:
+		return True
+	else:
+		return false
