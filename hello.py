@@ -24,3 +24,11 @@ def isEven(number):
 		return True
 	else:
 		return false
+
+def arraySum(li):
+	summation = 0
+
+	for i in range(li):
+		summation += i
+
+	return summation
