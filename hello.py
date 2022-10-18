@@ -44,3 +44,6 @@ def isPrime(number):
 
 def consoleLog():
 	print("console log")
+	
+def isOdd(number):
+	return isEven(number)
