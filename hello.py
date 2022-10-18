@@ -41,3 +41,6 @@ def isPrime(number):
 			return False
 	
 	return True
+
+def consoleLog():
+	print("console log")
