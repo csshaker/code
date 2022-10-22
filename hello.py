@@ -50,3 +50,12 @@ def isOdd(number):
 
 def sort():
 	print("sort")
+	
+def printLine(text, count):
+	i = 1
+
+	while i <= count:
+		print(text)
+		i++;
+
+	
