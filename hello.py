@@ -47,3 +47,12 @@ def consoleLog():
 	
 def isOdd(number):
 	return isEven(number)
+
+def printLine(text, count):
+	i = 1
+
+	while i <= count:
+		print(text)
+		i++;
+
+	
