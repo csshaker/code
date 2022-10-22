@@ -47,3 +47,5 @@ def consoleLog():
 	
 def isOdd(number):
 	return isEven(number)
+
+	
