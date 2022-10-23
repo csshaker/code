@@ -62,4 +62,5 @@ def evenGenerator(n):
 
 	return even
 
-	
+def logout():
+	print('log out')
