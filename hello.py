@@ -42,10 +42,12 @@ def isPrime(number):
 	
 	return True
 
-def consoleLog():
-	print("console log")
-	
-def isOdd(number):
-	return isEven(number)
+def primeGenerator(n):
+	prime = []
+	i = 2
 
-	
+	while i <= n:
+		if isPrime(i):
+			prime.append(i)
+
+	return prime
