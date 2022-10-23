@@ -42,21 +42,27 @@ def isPrime(number):
 	
 	return True
 
-def consoleLog():
-	print("console log")
-	
-def isOdd(number):
-	return isEven(number)
+def primeGenerator(n):
+	prime = []
+	i = 2
 
-def sort():
-	print("sort")
-	
-def printLine(text, count):
+	while i <= n:
+		if isPrime(i):
+			prime.append(i)
+
+	return prime
+
+def evenGenerator(n):
+	even = []
 	i = 1
 
-	while i <= count:
-		print(text)
-		i++;
+	while i <= n:
+		if isEven(i)
+			even.append(i)
 
 def hello():
 	print("hello")
+	return even
+
+def logout():
+	print('log out')
