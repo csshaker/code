@@ -58,4 +58,5 @@ def printLine(text, count):
 		print(text)
 		i++;
 
-	
+def hello():
+	print("hello")
