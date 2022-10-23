@@ -12,6 +12,7 @@ def multiplication(a, b):
 
 def printSomething(something):
 	print(something)
+	
 
 def division(a, b):
 	try:
