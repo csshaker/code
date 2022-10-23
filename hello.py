@@ -61,6 +61,9 @@ def evenGenerator(n):
 		if isEven(i)
 			even.append(i)
 
+def hello():
+	print("hello")
 	return even
 
-	
+def logout():
+	print('log out')
