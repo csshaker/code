@@ -67,3 +67,10 @@ def hello():
 
 def logout():
 	print('log out')
+
+class Circle:
+	def __init__(self, radius):
+		self.radius = radius
+
+	def area(self):
+		return 3.1416 * self.radius * self.radius
