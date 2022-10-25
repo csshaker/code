@@ -69,12 +69,15 @@ def logout():
 	print('log out')
 
 class Rectangle:
-	self __init__(self, a, b):
+	def __init__(self, a, b):
 		self.a = a 
 		self.b = b 
 
-	self area(self):
+	def area(self):
 		return self.a * self.b 
+
+	def circumference(self):
+		return 2 * (self.a + self.b)
 		
 class Circle:
 	def __init__(self, radius):
