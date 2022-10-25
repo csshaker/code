@@ -12,6 +12,7 @@ def multiplication(a, b):
 
 def printSomething(something):
 	print(something)
+	
 
 def division(a, b):
 	try:
@@ -60,6 +61,8 @@ def evenGenerator(n):
 		if isEven(i)
 			even.append(i)
 
+def hello():
+	print("hello")
 	return even
 
 def logout():
@@ -72,3 +75,10 @@ class Rectangle:
 
 	self area(self):
 		return self.a * self.b 
+		
+class Circle:
+	def __init__(self, radius):
+		self.radius = radius
+
+	def area(self):
+		return 3.1416 * self.radius * self.radius
