@@ -5,3 +5,8 @@ class Rectangle:
 
 	def area(self):
 		return self.a * self.b 
+
+	def circumference(self):
+		return 2 * (self.a + self.b)
+
+		
