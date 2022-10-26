@@ -9,4 +9,9 @@ class Rectangle:
 	def circumference(self):
 		return 2 * (self.a + self.b)
 
-		
+class Square:
+	def __init__(self, a):
+		self.a = a 
+
+	def area(self):
+		return self.a * self.a 
