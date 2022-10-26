@@ -67,26 +67,3 @@ def hello():
 
 def logout():
 	print('log out')
-
-class Rectangle:
-	self __init__(self, a, b):
-		self.a = a 
-		self.b = b 
-
-	self area(self):
-		return self.a * self.b 
-		
-class Circle:
-	def __init__(self, radius):
-		self.radius = radius
-
-	def area(self):
-		return 3.1416 * self.radius * self.radius
-
-	def circumference(self):
-		return 2 * 3.1416 * self.radius
-
-	def returnAll(self):
-		return self.area(), self.circumference()
-
-		
