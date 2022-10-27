@@ -60,6 +60,29 @@ class TemperatureConversion:
 	def celciusConversion(self):
 		return (self.celcius / 5)
 
+	def furrenhiteConversion(self):
+		return self.furrenhite 
+
+class Address:
+	def __init__(self, house, road, area):
+		self.house = house
+		self.road = road 
+		self.area = area 
+
+	def returnAll(self):
+		return self.house, self.road, self.area 
+
+	def returnHouse(self):
+		return self.house 
+	
+	def returnRoad(self):
+		return self.road 
+
+	def returnArea(self):
+		return self.area
+
+		
+
 class Role: 
 	def __init__(self, id, roleName):
 		self.id = id 
