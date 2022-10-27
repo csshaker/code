@@ -35,3 +35,6 @@ class Employee:
 
 	def show(self):
 		print(self.name, self. email, self.phone)
+
+	def returnEmail(self):
+		return self.email
