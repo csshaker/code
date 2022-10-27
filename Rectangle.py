@@ -81,8 +81,6 @@ class Address:
 	def returnArea(self):
 		return self.area
 
-		
-
 class Role: 
 	def __init__(self, id, roleName):
 		self.id = id 
