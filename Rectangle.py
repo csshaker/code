@@ -59,3 +59,10 @@ class TemperatureConversion:
 
 	def celciusConversion(self):
 		return (self.celcius / 5)
+
+class Role: 
+	def __init__(self, id, roleName):
+		self.id = id 
+		self.roleName = roleName
+
+		
