@@ -27,4 +27,11 @@ class Triangle:
 	def area(self):
 		return 0.5 * self.base * self.height
 
-		
+class Employee:
+	def __init__(self, name, email, phone):
+		self.name = name
+		self.email = email
+		self.phone = phone 
+
+	def show(self):
+		print(self.name, self. email, self.phone)
