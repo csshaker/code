@@ -39,5 +39,8 @@ class Employee:
 	def returnEmployee(self):
 		return self
 
+	def returnEmail(self):
+		return self.email
+
 	def calculateSalary(self):
 		print("Salary Calculation")
