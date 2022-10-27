@@ -49,6 +49,9 @@ class UnitConversion:
 	def __init__(self, unit):
 		self.unit = unit 
 
+	def returnUnit(self):
+		return self.unit
+
 class TemperatureConversion:
 	def __init__(self, celcius, furrenhite):
 		self.celcius = celcius
