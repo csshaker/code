@@ -41,3 +41,7 @@ class Employee:
 
 	def returnEmail(self):
 		return self.email
+
+class UnitConversion:
+	def __init__(self, unit):
+		self.unit = unit 
