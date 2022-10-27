@@ -42,6 +42,9 @@ class Employee:
 	def returnEmail(self):
 		return self.email
 
+	def calculateSalary(self):
+		print("Salary Calculation")
+
 class UnitConversion:
 	def __init__(self, unit):
 		self.unit = unit 
