@@ -51,3 +51,11 @@ class UnitConversion:
 
 	def returnUnit(self):
 		return self.unit
+
+class TemperatureConversion:
+	def __init__(self, celcius, furrenhite):
+		self.celcius = celcius
+		self.furrenhite = furrenhite
+
+	def celciusConversion(self):
+		return (self.celcius / 5)
