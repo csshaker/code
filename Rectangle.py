@@ -16,6 +16,9 @@ class Square:
 	def area(self):
 		return self.a * self.a 
 
+	def circumference(self):
+		return 4 * self.a 
+
 class Triangle:
 	def __init__(self, base, height):
 		self.base = base
