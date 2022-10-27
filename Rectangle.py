@@ -44,3 +44,11 @@ class Employee:
 
 	def calculateSalary(self):
 		print("Salary Calculation")
+
+class TemperatureConversion:
+	def __init__(self, celcius, furrenhite):
+		self.celcius = celcius
+		self.furrenhite = furrenhite
+
+	def celciusConversion(self):
+		return (self.celcius / 5)
