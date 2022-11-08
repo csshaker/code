@@ -70,7 +70,9 @@ def logout():
 
 def string_conc(str1, str2):
 	return str1 + str2 
-
+	
 def string_length(str):
 	return str.length()
-	
+
+def test_func():
+	print("function for UT")
