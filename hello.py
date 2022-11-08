@@ -67,3 +67,6 @@ def hello():
 
 def logout():
 	print('log out')
+
+def test_func():
+	print("function for UT")
