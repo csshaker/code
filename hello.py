@@ -68,5 +68,8 @@ def hello():
 def logout():
 	print('log out')
 
+def string_conc(str1, str2):
+	return str1 + str2 
+
 def test_func():
 	print("function for UT")
